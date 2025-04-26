@@ -244,7 +244,7 @@ export class ExecuteTransactionAction {
 }
 
 export const executeTransactionAction = {
-  name: "executeTransaction",
+  name: "EXECUTE_TRANSACTION",
   description:
     "Execute blockchain transactions across multiple networks (BNB Chain, Ethereum, Solana) with support for various operations including token swaps, staking, and bridging. The tool integrates with multiple DEXs and protocols to provide the best execution routes and prices.",
   handler: async (
@@ -402,7 +402,7 @@ export const executeTransactionAction = {
         user: "{{agent}}",
         content: {
           text: "I'll help you swap 0.001 BNB for USDC on BSC",
-          action: "SWAP",
+          action: "EXECUTE_TRANSACTION",
           content: {
             chain: "bsc",
             inputToken: "BNB",
@@ -424,7 +424,7 @@ export const executeTransactionAction = {
         user: "{{agent}}",
         content: {
           text: "I'll help you swap 0.001 USDC for token 0x1234 on BSC",
-          action: "SWAP",
+          action: "EXECUTE_TRANSACTION",
           content: {
             chain: "bsc",
             inputToken: "USDC",

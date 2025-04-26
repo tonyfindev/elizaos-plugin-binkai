@@ -212,7 +212,7 @@ export class GetWalletInfoAction {
 }
 
 export const getWalletInfoAction = {
-  name: "getWalletInfo",
+  name: "GET_WALLET_INFO",
   description:
     "Retrieve comprehensive wallet information across multiple networks (BNB Chain, Ethereum, Solana) including balances, transaction history, and token holdings. The tool integrates with Birdeye, Alchemy, and Bink providers to provide detailed wallet analytics and insights.",
   handler: async (
