@@ -183,11 +183,15 @@ export class ExecuteTransactionAction {
           model: "gpt-4.1",
           temperature: 0,
           systemPrompt: `${systemPromptTemplate}
-        Wallet BNB: ${(await wallet.getAddress(NetworkName.BNB)) || "Not available"}
+        Wallet BNB: ${
+          (await wallet.getAddress(NetworkName.BNB)) || "Not available"
+        }
         Wallet ETH: ${
-                    (await wallet.getAddress(NetworkName.ETHEREUM)) || "Not available"
-                  }
-        Wallet SOL: ${(await wallet.getAddress(NetworkName.SOLANA)) || "Not available"}
+          (await wallet.getAddress(NetworkName.ETHEREUM)) || "Not available"
+        }
+        Wallet SOL: ${
+          (await wallet.getAddress(NetworkName.SOLANA)) || "Not available"
+        }
             `,
         },
         wallet,
@@ -241,7 +245,8 @@ export class ExecuteTransactionAction {
 
 export const executeTransactionAction = {
   name: "executeTransaction",
-  description: "Execute a transaction on the same chain",
+  description:
+    "Execute blockchain transactions across multiple networks (BNB Chain, Ethereum, Solana) with support for various operations including token swaps, staking, and bridging. The tool integrates with multiple DEXs and protocols to provide the best execution routes and prices.",
   handler: async (
     runtime: IAgentRuntime,
     message: Memory,
@@ -359,8 +364,7 @@ export const executeTransactionAction = {
   template: systemPromptTemplate,
   validate: async (runtime: IAgentRuntime) => {
     const config = getConfig();
-    const seedPhrase =
-      runtime.getSetting("BNB_SEED_PHRASE") || config.BNB_SEED_PHRASE;
+    const seedPhrase = runtime.getSetting("SEED_PHRASE") || config.SEED_PHRASE;
 
     if (!seedPhrase || typeof seedPhrase !== "string") {
       elizaLogger.error("Missing or invalid seed phrase");
@@ -386,4 +390,51 @@ export const executeTransactionAction = {
       return false;
     }
   },
+  examples: [
+    [
+      {
+        user: "{{user1}}",
+        content: {
+          text: "Swap 0.001 BNB for USDC on BSC",
+        },
+      },
+      {
+        user: "{{agent}}",
+        content: {
+          text: "I'll help you swap 0.001 BNB for USDC on BSC",
+          action: "SWAP",
+          content: {
+            chain: "bsc",
+            inputToken: "BNB",
+            outputToken: "USDC",
+            amount: "0.001",
+            slippage: undefined,
+          },
+        },
+      },
+    ],
+    [
+      {
+        user: "{{user1}}",
+        content: {
+          text: "Buy some token of 0x1234 using 0.001 USDC on BSC. The slippage should be no more than 5%",
+        },
+      },
+      {
+        user: "{{agent}}",
+        content: {
+          text: "I'll help you swap 0.001 USDC for token 0x1234 on BSC",
+          action: "SWAP",
+          content: {
+            chain: "bsc",
+            inputToken: "USDC",
+            outputToken: "0x1234",
+            amount: "0.001",
+            slippage: 0.05,
+          },
+        },
+      },
+    ],
+  ],
+  similes: ["SWAP", "TOKEN_SWAP", "EXCHANGE_TOKENS", "TRADE_TOKENS"],
 };

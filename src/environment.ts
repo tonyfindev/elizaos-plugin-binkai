@@ -10,7 +10,7 @@ const DEFAULT_SOLANA_RPC_URL = "https://api.mainnet-beta.solana.com";
 
 export const binkEnvSchema = z.object({
   // Wallet Configuration
-  BNB_SEED_PHRASE: z.string().min(1, "BNB_SEED_PHRASE is required"),
+  SEED_PHRASE: z.string().min(1, "SEED_PHRASE is required"),
 
   // RPC URLs
   BSC_RPC_URL: z.string().default(DEFAULT_BSC_RPC_URL),
@@ -24,11 +24,6 @@ export const binkEnvSchema = z.object({
   BINK_BASE_URL: z.string().min(1, "BINK_BASE_URL is required"),
   BINK_IMAGE_API_URL: z.string().min(1, "BINK_IMAGE_API_URL is required"),
   BINK_API_URL: z.string().min(1, "BINK_API_URL is required"),
-
-  // Database
-  POSTGRES_AI_POSTGRES_URL: z
-    .string()
-    .min(1, "POSTGRES_AI_POSTGRES_URL is required"),
 });
 
 export type BinkConfig = z.infer<typeof binkEnvSchema>;
@@ -39,7 +34,7 @@ export type BinkConfig = z.infer<typeof binkEnvSchema>;
 export function getConfig(): BinkConfig {
   return {
     // Wallet Configuration
-    BNB_SEED_PHRASE: process.env.BNB_SEED_PHRASE || "",
+    SEED_PHRASE: process.env.SEED_PHRASE || "",
 
     // RPC URLs
     BSC_RPC_URL: process.env.BSC_RPC_URL || DEFAULT_BSC_RPC_URL,
@@ -53,9 +48,6 @@ export function getConfig(): BinkConfig {
     BINK_BASE_URL: process.env.BINK_BASE_URL || "",
     BINK_IMAGE_API_URL: process.env.BINK_IMAGE_API_URL || "",
     BINK_API_URL: process.env.BINK_API_URL || "",
-
-    // Database
-    POSTGRES_AI_POSTGRES_URL: process.env.POSTGRES_AI_POSTGRES_URL || "",
   };
 }
 
@@ -68,8 +60,7 @@ export async function validateBnbConfig(
   try {
     const config = {
       // Wallet Configuration
-      BNB_SEED_PHRASE:
-        runtime.getSetting("BNB_SEED_PHRASE") || process.env.BNB_SEED_PHRASE,
+      SEED_PHRASE: runtime.getSetting("SEED_PHRASE") || process.env.SEED_PHRASE,
 
       // RPC URLs
       BSC_RPC_URL:
@@ -119,5 +110,5 @@ export async function validateBnbConfig(
  * Check if a wallet is configured (seed phrase)
  */
 export function hasWalletConfigured(config: BinkConfig): boolean {
-  return !!config.BNB_SEED_PHRASE;
+  return !!config.SEED_PHRASE;
 }
