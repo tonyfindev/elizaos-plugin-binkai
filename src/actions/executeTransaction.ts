@@ -32,7 +32,6 @@ import { OkuProvider } from "@binkai/oku-provider";
 import { KyberProvider } from "@binkai/kyber-provider";
 import { SwapPlugin } from "@binkai/swap-plugin";
 import { TokenPlugin } from "@binkai/token-plugin";
-import { ImagePlugin } from "@binkai/image-plugin";
 import { KnowledgePlugin } from "@binkai/knowledge-plugin";
 import { deBridgeProvider } from "@binkai/debridge-provider";
 import { BridgePlugin } from "@binkai/bridge-plugin";
@@ -184,23 +183,21 @@ export class ExecuteTransactionAction {
           model: "gpt-4.1",
           temperature: 0,
           systemPrompt: `${systemPromptTemplate}
-Wallet BNB: ${(await wallet.getAddress(NetworkName.BNB)) || "Not available"}
-Wallet ETH: ${
-            (await wallet.getAddress(NetworkName.ETHEREUM)) || "Not available"
-          }
-Wallet SOL: ${(await wallet.getAddress(NetworkName.SOLANA)) || "Not available"}
+        Wallet BNB: ${(await wallet.getAddress(NetworkName.BNB)) || "Not available"}
+        Wallet ETH: ${
+                    (await wallet.getAddress(NetworkName.ETHEREUM)) || "Not available"
+                  }
+        Wallet SOL: ${(await wallet.getAddress(NetworkName.SOLANA)) || "Not available"}
             `,
         },
         wallet,
         this.networks,
       );
       await agent.initialize();
-      await agent.registerPlugin(swapPlugin as any);
-      // await agent.registerPlugin(tokenPlugin as any);
-      // await agent.registerPlugin(knowledgePlugin as any);
-      // await agent.registerPlugin(bridgePlugin as any);
-      // await agent.registerPlugin(walletPlugin as any);
-      // await agent.registerPlugin(stakingPlugin as any);
+      await agent.registerPlugin(swapPlugin);
+      await agent.registerPlugin(tokenPlugin);
+      await agent.registerPlugin(walletPlugin);
+      await agent.registerPlugin(stakingPlugin);
 
       return agent;
     } catch (error) {
@@ -389,35 +386,4 @@ export const executeTransactionAction = {
       return false;
     }
   },
-  examples: [
-    [
-      {
-        user: "{{user1}}",
-        content: {
-          text: "Swap 0.001 BNB for USDC on BSC",
-        },
-      },
-      {
-        user: "{{agent}}",
-        content: {
-          text: "I'll help you swap 0.001 BNB for USDC on BSC",
-        },
-      },
-    ],
-    [
-      {
-        user: "{{user1}}",
-        content: {
-          text: "Buy some token of 0x1234 using 0.001 USDC on BSC. The slippage should be no more than 5%",
-        },
-      },
-      {
-        user: "{{agent}}",
-        content: {
-          text: "I'll help you swap 0.001 USDC for token 0x1234 on BSC",
-        },
-      },
-    ],
-  ],
-  similes: ["SWAP", "TOKEN_SWAP", "EXCHANGE_TOKENS", "TRADE_TOKENS"],
 };

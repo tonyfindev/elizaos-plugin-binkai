@@ -9,71 +9,71 @@ importers:
   .:
     dependencies:
       '@binkai/alchemy-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/bink-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/birdeye-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/bridge-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       '@binkai/core':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/debridge-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(graphql@16.10.0)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(fc737a4df0d27e0bd5fc26efe0c8aeec)
       '@binkai/four-meme-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       '@binkai/image-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/jupiter-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(ejjxqdwwttrskjhsv4e4wpbqmy)
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(6a192f799ce74615d3b2c010a3582963)
       '@binkai/knowledge-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/kyber-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/oku-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/okx-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/pancakeswap-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(dqwqa3nisrfdpk6ug3acxyvqcy)
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(7aa7030ce01eddef09581ac6156f9ee0)
       '@binkai/postgres-adapter':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/rpc-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(a48590d8dd64881c150359eee066ff8f)
       '@binkai/staking-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/swap-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       '@binkai/thena-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/token-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/venus-provider':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@binkai/wallet-plugin':
-        specifier: 0.1.17-alpha.1
-        version: 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        specifier: 0.2.9-alpha.3
+        version: 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@bnb-chain/greenfield-js-sdk':
         specifier: ^2.2.0
         version: 2.2.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -428,71 +428,71 @@ packages:
       bs58: ^6.0.0
       viem: ^2.21.0
 
-  '@binkai/alchemy-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-BHFg9QV0fXJ7se1S0hdMCcz77udNBPk/iRxZk5aqIjn1K/C3Au/NfUtFe5YAHW2e+s4mPBJxxlugvqy0bdAo6A==}
+  '@binkai/alchemy-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-EOtpFiHa/PnWz4Hnko/CnHL0rcgPfhK86WGcc1lT7sjP47yAsvyBIfRTvKHzD4sQXyVHOEyBJPX+9MIL26/c4Q==}
 
-  '@binkai/bink-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-qXWEBDJI2pJy5akB7gTBgjpBhDYZ4JbJY8VLGkVulRt2ij36nO0Vnzh2CCtjLkYqN1BmwAzgBQynULLtKrfiFQ==}
+  '@binkai/bink-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-wj7yS2cOliIkU9Q/sJM2TtgGHsgLJ2i48lWaxs+FKyDJ9bD4U3Vx8PhK/T9v6ctjySWJfacrYbEQ3mDUZkJXwA==}
 
-  '@binkai/birdeye-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-JyyJhLuj151sJKuZ2xPz6kbY+F5bkDYbD9+MFvzp0wZ+kviBNXsZmhlD9N3pAGS5Dtgs2XzhEH09KQvnt1FUfA==}
+  '@binkai/birdeye-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-+IExpUfJjXLwF9D6JHJLQCVRd4ng/KQfWpm9rPnGRNG6ywTnPsnyjrPWsn9MMyl2rYVJ5SB7N7MuX+X+cCeYVQ==}
 
-  '@binkai/bridge-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-j1BWKuHvRRHiDP2ztxEyqMKxucyCe2pnxxPEGXPo5Mpe9tAhoTUwRkEq+UV9IXkWFduMpqYx7gWTiidO/kZVAQ==}
+  '@binkai/bridge-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-UN9OdD9AwuxdaetC2EabvpcrJK/hGo6Z5PjBo/HJ2v8RZQ02SS1vhPS4Niuf8bSvESFmWZPmniJ/wZ9+v8C0tg==}
 
-  '@binkai/core@0.1.17-alpha.1':
-    resolution: {integrity: sha512-4wC87unwR9UmpdXZPyCfW5GCqhfPt8jWZIjsGAGANm5bQmviox2yiZIzOc2ZOujEIawTwyncHL1Qa4c/DU3ICQ==}
+  '@binkai/core@0.2.9-alpha.3':
+    resolution: {integrity: sha512-H6ncUZTh/KZmBNsQ291/XIcPvwrScQOcrXGym9/ptuiXRF+wREIqEnOOTCmPwj6/e0xavNWjfimoy//HC79UYw==}
 
-  '@binkai/debridge-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-8Xo2NJKTBOw/nIsz7l7JwS/0AXE5Vl6cJ1O6hTfr7ci5usPSGX7rZyO9yTlz/XAIWW/Aklsx4+TKXm2E8YAVgA==}
+  '@binkai/debridge-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-C66jyt3AJ5BKtI4ApHVxljO9Whph3o92IQVfcIQcIyaOhsM5Z20nQ+xMfFqWfUzQwXy21eLXvGQjbsGuvidYZA==}
 
-  '@binkai/four-meme-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-B4GUF3XdT5jnRjZ0RTkcq1noROvexns/qXzBCWtt17ERk+4pj5Zp+3kbm5thkN/CdbomOhNkqpXlSndUoHdH9g==}
+  '@binkai/four-meme-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-ZwQwLnMLk+hEKrkixghECMZaUesOZsIQaXywLwdu4VmbdPvCI743Q46PZLkWx/fMHczcXMHmoAnwTyP16kICGw==}
 
-  '@binkai/image-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-FbW+fFkqfeO8rE9qzBcZqiz8gHbmMBhtyqUzzk/hefE7ShLYgbuYaC6y/WGwXTZBrKfgKun2JymcIHTtKwzRXA==}
+  '@binkai/image-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-Kf0Pt7udmlUPYnfnGEXqlGbpFfKpd1W1mcl6eEwIDHmu99D1JK0v07gdHgFKk+h7Tu9QBaObr5P0A34FxUfTQw==}
 
-  '@binkai/jupiter-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-xdKlR2qK+BfH5OQJUqQ+KcYbmp+wDnXcLKaSwN46SFOrJebKuFarQQZT4uXENY5Vd7X4uRjtT9IbT3EhdoVf/w==}
+  '@binkai/jupiter-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-nKvOcom7A9L+cGgaWY5H126NjZwivwiPRYp9Kzdx8lU+Ia8cl6dbp4jhZdrqSq4cAhQzhPRV6WfLMipk6B4/Jg==}
 
-  '@binkai/knowledge-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-WekZk/quZbAhbafO0nXqvr+OrtAT8HKUdYJgw48kjQV3M/KdC6Gg97vlEW+nN/0l+lygrjFxngXk2JXQdLGTAw==}
+  '@binkai/knowledge-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-trKIOzlJ2gz9haJysIEEH8LS6DAiLciUQjL/y9obmZmmpoM5VyZJrNL1z9/hrdXjBFXY6nAQIrEk6tFAeNJXzA==}
 
-  '@binkai/kyber-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-zuMEwu7XulFPsr/91TdP5nIbLylGtIgpDu/1WSkkdlnzR8i0NHbV1+QdfwE7c0cKUJf1U3suzDhcnjuYQqZ7cA==}
+  '@binkai/kyber-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-amQIWnCPq2u0FF8C2RlWLJWIJP6XXDRjBE/a42buMdG6PUi9byFknBbU2UlYwW5zCuuzF2+smWABNOUrhoKe2Q==}
 
-  '@binkai/oku-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-fBvN6DZYCqIf7+0AENichBx9XlKi7bhWJkAVx0ITJZkcbMEriZO5y8A1V6u5Fip074wFnTtIyRY5MVNeMo9TUw==}
+  '@binkai/oku-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-ZhLhzztTgz4m7C7SYDZ1eLgcdpZi5nNxOIFAvxolS3FVMQYceh2lwDNFLq6sWWwcLjoAybDAeEcTpepyc2HtPA==}
 
-  '@binkai/okx-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-vI5fkcb+dqvVrC4RjFx2zXh2upMpYvuCmxbziKQ0JzFmRrW315+gYf3nUh/97YMUYDa4TTJdtIEppd90rg+uDQ==}
+  '@binkai/okx-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-neIBwXMbwQqB/kXWpJ1X8BMVD6j9mPIAoiInxJA14qZlVVyrFKZOEz3+ylRcEFHlse/WSzefAw2RUWwYtgqj/w==}
 
-  '@binkai/pancakeswap-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-lErEUFV3E61eKLi6vIe8b2aRVxUDz9hXtgkxVwcZz3HdN+MjklJI78GcXq+tAOqLSB34j0KSPrPhxmnwOS0uaA==}
+  '@binkai/pancakeswap-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-/2rE4VPRjeAInIwMkD76bsooAq70hGZwz5M4IyywSlCFOD3sH0YEOKHvzWuTP0LVel1gywg8iokuu/4gDcsRgA==}
 
-  '@binkai/postgres-adapter@0.1.17-alpha.1':
-    resolution: {integrity: sha512-nh9PLjkYxVwUSjH4yo7vumCDWnZKQcpKy5d51zRFNtoTE7tdTAp1sexLnRZREadD8MVy4GvdDM+HlS3NqLAIQw==}
+  '@binkai/postgres-adapter@0.2.9-alpha.3':
+    resolution: {integrity: sha512-LvenihxcdzwVPu4P/Ve63fsMrQB3SbqZSS9hLQVqNHoAJ3QCrXhAGPBoneBWDSeUx31lCVN4uD4KMWoanOx9PA==}
 
-  '@binkai/rpc-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-o8aVjdi7cVuRBmGAJkkGdsRHiewnlaBk/Kii5u93RK0ZWdkefi1YNZO4VkjoUOxKqZsoZuVZrOCsFrkkq4smSw==}
+  '@binkai/rpc-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-cvEPhC/xBSeJ6uK810Eu6IG25SqxDqjcrXMxqLTCqLmuy28wXvL0317/wMbFsRg5qzvyDBdZHvLmXAttGzGv8w==}
 
-  '@binkai/staking-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-cWLJXUWgPfmBvBzOg24S5le5S/jIBYY4T6s3dzzu0fCN72bN8euGf8r3FvOD+Egxf0ck5uOffcQ1yl1K6WSzgQ==}
+  '@binkai/staking-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-D6/xaZbiWryVS9faD+tWMPC9Z6iws1FgynLRBEtlF52lXNYXxyeGdbfJOWrDnVgoyePbdIQWaN03qt3uvMkraA==}
 
-  '@binkai/swap-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-jadbtiX2Df2/RcKspDFeHbhZUtbNYVdPKSK44HM1HfS4277HGt+RcWup4yA+YLf/wBQEhr9vy4n802cHvNf7Ew==}
+  '@binkai/swap-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-GWueMlB+WJGmrZI9K5LmD1ynAu8xGlCuDu8xKiB3ET+906Eu4DMlxsvko/Hb1i9khkDgROSzFo1FSAmlmxdetA==}
 
-  '@binkai/thena-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-gn7wfBgRMgV9Vz40SNkUHXVyvPV0ajuihi3wBk817nHpKDZ41McksL4yIUSfLIW/2dXdXW4CrCDdXtTDyuexlw==}
+  '@binkai/thena-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-fWA369VHba2sF0xRkUebyuA7aHeYxUlQxij+zHq7Li6ZDit++/+M4XXKrfwu+bTwZpnq3Xsj8fwlor12nH0PPA==}
 
-  '@binkai/token-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-77q9dOe2KRa/Hs3ngXr4n95TnIGPfkJ74xeimiZniaa9yWmRA2CLSwOnaysVESkRRnzJTMqySDFec/WHQi10bg==}
+  '@binkai/token-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-epPsdMbjc5UXg9FKMJWt5mvMmY4nlG6BCLYGWY4mNpMG8T2W1M18MmTf34tS5NAMiT+2P3FVHh2XiBbW+LUPkQ==}
 
-  '@binkai/venus-provider@0.1.17-alpha.1':
-    resolution: {integrity: sha512-WLT4yk5iF8vLvrxhRmlP+1M7xdtmcOHgOeJjxvvbZQOpQ+c5QDnM1NyadOlDY79RCUTp1n1SBW5/6Plo5WF5Gw==}
+  '@binkai/venus-provider@0.2.9-alpha.3':
+    resolution: {integrity: sha512-92CLw3hVdX9okjzCYxg7zNoUmIRy7obdddrlFbzfJIXyuf4ke0p59HheJw5XymkJ6h0chBcy430MniE6jtGzMQ==}
 
-  '@binkai/wallet-plugin@0.1.17-alpha.1':
-    resolution: {integrity: sha512-tYm7eM1oWOehY3JcwzdLSThbWunIti5As4XOckQSR/ZE9/5y7OdHOEXPqt/5C4zaYSAHIBy/77MTfdV4qDOxqA==}
+  '@binkai/wallet-plugin@0.2.9-alpha.3':
+    resolution: {integrity: sha512-z3RLXXrCxCb+P6SPQV9AN92/Suk5U3uQZm0xPDeeDHnYxOm3Zze0LJTfg3jMDokv3rCaZhE4GaHMJUIROUOMwg==}
 
   '@biomejs/biome@1.9.4':
     resolution: {integrity: sha512-1rkd7G70+o9KkTn5KLmDYXihGoTaIGO9PIIN2ZB7UJxFrWw04CZHPYiMRjYsaDvVV7hP1dYNRLxSANLaBFGpog==}
@@ -1628,11 +1628,38 @@ packages:
     resolution: {integrity: sha512-R/G/ax4O3UrDV0JIkz6jiQSLBB68r9FswpHDgN6OPxU0R3YgAVnaiYuiNgUwHymmuUOJ6rZbndsnec73DE0iTw==}
     engines: {node: '>=18'}
 
-  '@langchain/openai@0.3.17':
-    resolution: {integrity: sha512-uw4po32OKptVjq+CYHrumgbfh4NuD7LqyE+ZgqY9I/LrLc6bHLMc+sisHmI17vgek0K/yqtarI0alPJbzrwyag==}
+  '@langchain/langgraph-checkpoint@0.0.17':
+    resolution: {integrity: sha512-6b3CuVVYx+7x0uWLG+7YXz9j2iBa+tn2AXvkLxzEvaAsLE6Sij++8PPbS2BZzC+S/FPJdWsz6I5bsrqL0BYrCA==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@langchain/core': '>=0.3.29 <0.4.0'
+      '@langchain/core': '>=0.2.31 <0.4.0'
+
+  '@langchain/langgraph-sdk@0.0.70':
+    resolution: {integrity: sha512-O8I12bfeMVz5fOrXnIcK4IdRf50IqyJTO458V56wAIHLNoi4H8/JHM+2M+Y4H2PtslXIGnvomWqlBd0eY5z/Og==}
+    peerDependencies:
+      '@langchain/core': '>=0.2.31 <0.4.0'
+      react: ^18 || ^19
+    peerDependenciesMeta:
+      '@langchain/core':
+        optional: true
+      react:
+        optional: true
+
+  '@langchain/langgraph@0.2.67':
+    resolution: {integrity: sha512-tu/ewNIvhIPzeW5GxGzqjmGHinnU/qbNAoLM9czdpci0PCbMysbEJ2pbJrZs7ZjaReWSnr/THkeLPQwqGOM9xw==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@langchain/core': '>=0.2.36 <0.3.0 || >=0.3.40 < 0.4.0'
+      zod-to-json-schema: ^3.x
+    peerDependenciesMeta:
+      zod-to-json-schema:
+        optional: true
+
+  '@langchain/openai@0.4.9':
+    resolution: {integrity: sha512-NAsaionRHNdqaMjVLPkFCyjUDze+OqRHghA1Cn4fPoAafz+FXcl9c7LlEl9Xo0FH6/8yiCl7Rw2t780C/SBVxQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@langchain/core': '>=0.3.39 <0.4.0'
 
   '@langchain/textsplitters@0.1.0':
     resolution: {integrity: sha512-djI4uw9rlkAb5iMhtLED+xJebDdAG935AdP4eRTB02R7OB/act55Bj9wsskhZsvuyQRpO4O1wQOp85s6T6GWmw==}
@@ -2457,6 +2484,9 @@ packages:
 
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
+
+  '@types/json-schema@7.0.15':
+    resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
   '@types/long@4.0.2':
     resolution: {integrity: sha512-MqTGEo5bj5t157U6fA/BiDynNkn0YknVdh48CMPkTSpFTVmvao5UQmm7uEF6xBEo7qIMAlY/JSleYaE6VOdpaA==}
@@ -5868,11 +5898,11 @@ snapshots:
       bs58: 6.0.0
       viem: 2.21.53(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.3)
 
-  '@binkai/alchemy-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/token-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/wallet-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/alchemy-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/token-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/wallet-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       axios: 1.8.4(debug@4.4.0)
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       zod: 3.24.3
@@ -5989,7 +6019,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6009,6 +6038,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6025,12 +6055,13 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/bink-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/image-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/knowledge-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/bink-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/image-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/knowledge-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       axios: 1.8.4(debug@4.4.0)
       zod: 3.24.3
     transitivePeerDependencies:
@@ -6146,7 +6177,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6166,6 +6196,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6182,12 +6213,13 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/birdeye-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/token-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/wallet-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/birdeye-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/token-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/wallet-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       axios: 1.8.4(debug@4.4.0)
       zod: 3.24.3
     transitivePeerDependencies:
@@ -6303,7 +6335,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6323,6 +6354,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6339,10 +6371,11 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/bridge-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@binkai/bridge-plugin@0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)':
     dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       '@metaplex-foundation/js': 0.20.1(arweave@1.15.7)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
@@ -6462,7 +6495,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6482,6 +6514,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6498,12 +6531,14 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/core@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@langchain/community': 0.3.41(7m3mrbmqwj2ci5e4mljfochvmm)
+  ? '@binkai/core@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@langchain/community': 0.3.41(4ac28ea574dc71d9b1e8879eabdfbd33)
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
-      '@langchain/openai': 0.3.17(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@langchain/langgraph': 0.2.67(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@langchain/openai': 0.4.9(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@solana/web3.js': 1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       bip39: 3.1.0
       bs58: 6.0.0
@@ -6511,6 +6546,7 @@ snapshots:
       ed25519-hd-key: 1.3.0
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       langchain: 0.3.24(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(axios@1.8.4)(handlebars@4.7.8)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      lodash: 4.17.21
       socket.io: 4.8.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       tweetnacl: 1.0.3
       uuid: 10.0.0
@@ -6628,7 +6664,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6648,6 +6683,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6664,11 +6700,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  ? '@binkai/debridge-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(graphql@16.10.0)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)'
-  : dependencies:
-      '@binkai/bridge-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  '@binkai/debridge-provider@0.2.9-alpha.3(fc737a4df0d27e0bd5fc26efe0c8aeec)':
+    dependencies:
+      '@binkai/bridge-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@solana/web3.js': 1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       axios: 1.8.4(debug@4.4.0)
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -6789,7 +6826,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6809,6 +6845,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6826,11 +6863,12 @@ snapshots:
       - ws
       - youtubei.js
       - zod
+      - zod-to-json-schema
 
-  '@binkai/four-meme-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@binkai/four-meme-provider@0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)':
     dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@arcjet/redact'
@@ -6946,7 +6984,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -6966,6 +7003,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -6982,10 +7020,11 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/image-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/image-plugin@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       zod: 3.24.3
     transitivePeerDependencies:
@@ -7101,7 +7140,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -7121,6 +7159,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -7137,11 +7176,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/jupiter-provider@0.1.17-alpha.1(ejjxqdwwttrskjhsv4e4wpbqmy)':
+  '@binkai/jupiter-provider@0.2.9-alpha.3(6a192f799ce74615d3b2c010a3582963)':
     dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       '@solana/spl-token': 0.4.13(@solana/web3.js@1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       axios: 1.8.4(debug@4.4.0)
@@ -7261,7 +7301,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -7281,6 +7320,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -7297,10 +7337,11 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/knowledge-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/knowledge-plugin@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       zod: 3.24.3
     transitivePeerDependencies:
@@ -7416,7 +7457,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -7436,6 +7476,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -7452,11 +7493,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/kyber-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/kyber-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       crypto-js: 4.2.0
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -7572,7 +7614,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -7592,6 +7633,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -7608,11 +7650,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/oku-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/oku-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       crypto-js: 4.2.0
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -7728,7 +7771,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -7748,6 +7790,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -7764,11 +7807,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/okx-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/okx-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       crypto-js: 4.2.0
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -7884,7 +7928,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -7904,6 +7947,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -7920,11 +7964,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/pancakeswap-provider@0.1.17-alpha.1(dqwqa3nisrfdpk6ug3acxyvqcy)':
+  '@binkai/pancakeswap-provider@0.2.9-alpha.3(7aa7030ce01eddef09581ac6156f9ee0)':
     dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       '@pancakeswap/sdk': 5.8.10(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.3)
       '@pancakeswap/smart-router': 7.0.2(bufferutil@4.0.9)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@pancakeswap/universal-router-sdk': 1.0.42(bufferutil@4.0.9)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.24.3)
@@ -8050,7 +8095,6 @@ snapshots:
       - jsonwebtoken
       - llmonitor
       - localforage
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -8088,10 +8132,11 @@ snapshots:
       - ws
       - youtubei.js
       - zod
+      - zod-to-json-schema
 
-  '@binkai/postgres-adapter@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/postgres-adapter@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@types/pg': 8.11.10
       pg: 8.13.1
       uuid: 9.0.1
@@ -8208,7 +8253,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -8228,6 +8272,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -8244,11 +8289,15 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/rpc-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@binkai/rpc-provider@0.2.9-alpha.3(a48590d8dd64881c150359eee066ff8f)':
     dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/wallet-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/wallet-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@metaplex-foundation/js': 0.20.1(arweave@1.15.7)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@solana/spl-token': 0.4.13(@solana/web3.js@1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@solana/web3.js': 1.98.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@arcjet/redact'
@@ -8327,6 +8376,7 @@ snapshots:
       - '@xata.io/client'
       - '@zilliz/milvus2-sdk-node'
       - apify-client
+      - arweave
       - assemblyai
       - axios
       - azion
@@ -8349,6 +8399,7 @@ snapshots:
       - encoding
       - epub2
       - fast-xml-parser
+      - fastestsmallesttextencoderdecoder
       - firebase-admin
       - google-auth-library
       - googleapis
@@ -8363,7 +8414,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -8383,6 +8433,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -8399,10 +8450,11 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/staking-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/staking-plugin@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       '@solana/web3.js': 1.98.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -8520,7 +8572,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -8540,6 +8591,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -8556,11 +8608,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/swap-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@binkai/swap-plugin@0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)':
     dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/token-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/token-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       '@metaplex-foundation/js': 0.20.1(arweave@1.15.7)(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -8680,7 +8733,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -8700,6 +8752,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -8716,11 +8769,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/thena-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/swap-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/thena-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(arweave@1.15.7)(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/swap-plugin': 0.2.9-alpha.3(f85bf10afc090a8e31f6fc5f2aa088fe)
       crypto-js: 4.2.0
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
@@ -8836,7 +8890,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -8856,6 +8909,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -8872,10 +8926,11 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/token-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/token-plugin@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       zod: 3.24.3
     transitivePeerDependencies:
@@ -8991,7 +9046,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -9011,6 +9065,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -9027,11 +9082,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/venus-provider@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@binkai/staking-plugin': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/venus-provider@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/staking-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@arcjet/redact'
@@ -9146,7 +9202,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -9166,6 +9221,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -9182,10 +9238,12 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
-  '@binkai/wallet-plugin@0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@binkai/core': 0.1.17-alpha.1(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(lodash@4.17.21)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+  ? '@binkai/wallet-plugin@0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))'
+  : dependencies:
+      '@binkai/core': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
+      '@binkai/token-plugin': 0.2.9-alpha.3(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.787.0)(@aws-sdk/credential-provider-node@3.787.0)(@browserbasehq/sdk@2.5.0)(@browserbasehq/stagehand@1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3))(@ibm-cloud/watsonx-ai@1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))))(@smithy/util-utf8@2.3.0)(@supabase/supabase-js@2.49.4(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.8.4)(better-sqlite3@11.8.1)(bufferutil@4.0.9)(crypto-js@4.2.0)(fast-xml-parser@4.5.3)(handlebars@4.7.8)(ibm-cloud-sdk-core@5.3.2)(jsonwebtoken@9.0.2)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(pg@8.13.1)(playwright@1.52.0)(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod-to-json-schema@3.24.5(zod@3.24.3))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       zod: 3.24.3
@@ -9302,7 +9360,6 @@ snapshots:
       - jsdom
       - jsonwebtoken
       - llmonitor
-      - lodash
       - lunary
       - mammoth
       - mariadb
@@ -9322,6 +9379,7 @@ snapshots:
       - portkey-ai
       - puppeteer
       - pyodide
+      - react
       - redis
       - replicate
       - sonix-speech-recognition
@@ -9338,6 +9396,7 @@ snapshots:
       - word-extractor
       - ws
       - youtubei.js
+      - zod-to-json-schema
 
   '@biomejs/biome@1.9.4':
     optionalDependencies:
@@ -10587,12 +10646,12 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@langchain/community@0.3.41(7m3mrbmqwj2ci5e4mljfochvmm)':
+  '@langchain/community@0.3.41(4ac28ea574dc71d9b1e8879eabdfbd33)':
     dependencies:
       '@browserbasehq/stagehand': 1.14.0(@playwright/test@1.52.0)(bufferutil@4.0.9)(deepmerge@4.3.1)(dotenv@16.5.0)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(utf-8-validate@5.0.10)(zod@3.24.3)
       '@ibm-cloud/watsonx-ai': 1.6.4(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
-      '@langchain/openai': 0.3.17(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@langchain/openai': 0.4.9(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       binary-extensions: 2.3.0
       expr-eval: 2.0.2
       flat: 5.0.2
@@ -10654,7 +10713,34 @@ snapshots:
     transitivePeerDependencies:
       - openai
 
-  '@langchain/openai@0.3.17(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@langchain/langgraph-checkpoint@0.0.17(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))':
+    dependencies:
+      '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
+      uuid: 10.0.0
+
+  '@langchain/langgraph-sdk@0.0.70(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(react@19.1.0)':
+    dependencies:
+      '@types/json-schema': 7.0.15
+      p-queue: 6.6.2
+      p-retry: 4.6.2
+      uuid: 9.0.1
+    optionalDependencies:
+      '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
+      react: 19.1.0
+
+  '@langchain/langgraph@0.2.67(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(react@19.1.0)(zod-to-json-schema@3.24.5(zod@3.24.3))':
+    dependencies:
+      '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
+      '@langchain/langgraph-checkpoint': 0.0.17(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))
+      '@langchain/langgraph-sdk': 0.0.70(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(react@19.1.0)
+      uuid: 10.0.0
+      zod: 3.24.3
+    optionalDependencies:
+      zod-to-json-schema: 3.24.5(zod@3.24.3)
+    transitivePeerDependencies:
+      - react
+
+  '@langchain/openai@0.4.9(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
       js-tiktoken: 1.0.15
@@ -12125,6 +12211,8 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
+  '@types/json-schema@7.0.15': {}
+
   '@types/long@4.0.2': {}
 
   '@types/mime-types@2.1.4': {}
@@ -13435,7 +13523,7 @@ snapshots:
       isstream: 0.1.2
       jsonwebtoken: 9.0.2
       mime-types: 2.1.35
-      retry-axios: 2.6.0(axios@1.8.4(debug@4.4.0))
+      retry-axios: 2.6.0(axios@1.8.4)
       tough-cookie: 4.1.4
     transitivePeerDependencies:
       - supports-color
@@ -13624,7 +13712,7 @@ snapshots:
   langchain@0.3.24(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(axios@1.8.4)(handlebars@4.7.8)(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@langchain/core': 0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3))
-      '@langchain/openai': 0.3.17(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@langchain/openai': 0.4.9(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.48(openai@4.96.0(ws@8.18.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.3)))
       js-tiktoken: 1.0.15
       js-yaml: 4.1.0
@@ -14367,7 +14455,7 @@ snapshots:
       onetime: 7.0.0
       signal-exit: 4.1.0
 
-  retry-axios@2.6.0(axios@1.8.4(debug@4.4.0)):
+  retry-axios@2.6.0(axios@1.8.4):
     dependencies:
       axios: 1.8.4(debug@4.4.0)
 

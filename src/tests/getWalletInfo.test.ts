@@ -1,5 +1,7 @@
 import { describe, it, expect, beforeAll } from "vitest";
-import { ExecuteTransactionAction } from "../actions/executeTransaction";
+import { GetWalletInfoAction } from "../actions/getWalletInfo";
+// import { WalletProvider } from "../providers/wallet";
+// import { initWalletProvider } from "../providers/wallet";
 import {
   NetworkName,
   NetworksConfig,
@@ -8,8 +10,8 @@ import {
   Network,
 } from "@binkai/core";
 
-describe("Execute Transaction Action", () => {
-  let executeTransactionAction: ExecuteTransactionAction;
+describe("Get Wallet Info", () => {
+  let getWalletInfoAction: GetWalletInfoAction;
 
   beforeAll(async () => {
     // Initialize with a test seed phrase
@@ -72,12 +74,12 @@ describe("Execute Transaction Action", () => {
       await wallet.getAddress(NetworkName.BNB),
     );
 
-    executeTransactionAction = new ExecuteTransactionAction(wallet);
+    getWalletInfoAction = new GetWalletInfoAction(wallet);
   });
-  describe("Execute", () => {
-    it("should execute transaction with valid input", async () => {
-      const content = "Swap 0.001 BNB for USDC on BSC";
-      const result = await executeTransactionAction.execute(content);
+  describe("Get Wallet Info", () => {
+    it("should get wallet info", async () => {
+      const content = "Get my balance";
+      const result = await getWalletInfoAction.getWalletInfo(content);
       console.log("🚀 ~ it ~ result:", result);
       expect(result).toBeDefined();
       expect(typeof result).toBe("string");
