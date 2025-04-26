@@ -1,0 +1,140 @@
+{
+    "name": "@elizaos/plugin-bink",
+    "version": "0.1.9",
+    "main": "dist/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "dependencies": {
+        "@binkai/alchemy-provider": "0.2.9-alpha.3",
+        "@binkai/bink-provider": "0.2.9-alpha.3",
+        "@binkai/birdeye-provider": "0.2.9-alpha.3",
+        "@binkai/bridge-plugin": "0.2.9-alpha.3",
+        "@binkai/core": "0.2.9-alpha.3",
+        "@binkai/debridge-provider": "0.2.9-alpha.3",
+        "@binkai/four-meme-provider": "0.2.9-alpha.3",
+        "@binkai/image-plugin": "0.2.9-alpha.3",
+        "@binkai/jupiter-provider": "0.2.9-alpha.3",
+        "@binkai/knowledge-plugin": "0.2.9-alpha.3",
+        "@binkai/kyber-provider": "0.2.9-alpha.3",
+        "@binkai/oku-provider": "0.2.9-alpha.3",
+        "@binkai/okx-provider": "0.2.9-alpha.3",
+        "@binkai/pancakeswap-provider": "0.2.9-alpha.3",
+        "@binkai/postgres-adapter": "0.2.9-alpha.3",
+        "@binkai/rpc-provider": "0.2.9-alpha.3",
+        "@binkai/staking-plugin": "0.2.9-alpha.3",
+        "@binkai/swap-plugin": "0.2.9-alpha.3",
+        "@binkai/thena-provider": "0.2.9-alpha.3",
+        "@binkai/token-plugin": "0.2.9-alpha.3",
+        "@binkai/venus-provider": "0.2.9-alpha.3",
+        "@binkai/wallet-plugin": "0.2.9-alpha.3",
+        "@bnb-chain/greenfield-js-sdk": "^2.2.0",
+        "@elizaos/core": "0.25.9",
+        "@lifi/data-types": "5.15.5",
+        "@lifi/sdk": "3.4.1",
+        "@lifi/types": "16.3.0",
+        "@openzeppelin/contracts": "^5.1.0",
+        "@types/node": "^22.10.5",
+        "@web3-name-sdk/core": "^0.3.2",
+        "chalk": "^5.3.0",
+        "cli-table3": "^0.6.3",
+        "ethers": "^6.13.5",
+        "mime-types": "^2.1.35",
+        "openai": "^4.85.2",
+        "ora": "^8.0.1",
+        "solc": "^0.8.28",
+        "tsup": "8.3.5",
+        "viem": "2.21.53",
+        "ws": "^8.18.0",
+        "zod": "^3.24.3",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "1.9.4",
+        "vitest": "^3.1.2"
+    },
+    "scripts": {
+        "build": "tsup --format esm --dts",
+        "dev": "tsup --format esm --dts --watch",
+        "test": "vitest run",
+        "clean": "rm -rf dist",
+        "lint": "biome lint .",
+        "lint:fix": "biome check --apply .",
+        "format": "biome format .",
+        "format:fix": "biome format --write ."
+    },
+    "peerDependencies": {
+        "@types/mime-types": "^2.1.4",
+        "whatwg-url": "7.1.0"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "BNB_SEED_PHRASE": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your seed phrase for the BNB Chain ecosystem. Grants full access to associated funds.",
+                "optional": true
+            },
+            "BSC_RPC_URL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Custom RPC URL for BSC.",
+                "optional": true
+            },
+            "ETHEREUM_RPC_URL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Custom RPC URL for Ethereum.",
+                "optional": true
+            },
+            "SOLANA_RPC_URL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Custom RPC URL for Solana.",
+                "optional": true
+            },
+            "BIRDEYE_API_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your API key for Birdeye.",
+                "optional": true
+            },
+            "ALCHEMY_API_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your API key for Alchemy.",
+                "optional": true
+            },
+            "OPENAI_API_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your API key for OpenAI.",
+                "optional": true
+            },
+            "BINK_API_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your API key for Bink.",
+                "optional": true
+            },
+            "BINK_BASE_URL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your base URL for Bink.",
+                "optional": true
+            },
+            "BINK_IMAGE_API_URL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your image API URL for Bink.",
+                "optional": true
+            },
+            "BINK_IMAGE_API_KEY": {
+                "type": "string",
+                "minLength": 1,
+                "description": "Your image API key for Bink.",
+                "optional": true
+            }
+        }
+    }
+}
