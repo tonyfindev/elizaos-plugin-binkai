@@ -235,43 +235,14 @@ export const getWalletInfoAction = {
         : "";
     elizaLogger.debug(`Raw prompt text: "${promptText}"`);
 
-    // Initialize or update state
-    let currentState = state;
-    if (!currentState) {
-      currentState = (await runtime.composeState(message)) as State;
-    } else {
-      currentState = await runtime.updateRecentMessageState(currentState);
-    }
-
-    state.walletInfo = await walletInfoProvider.get(
-      runtime,
-      message,
-      currentState,
-    );
-
-    console.log("🚀 ~ currentState:", currentState);
-
-    // Compose execute transaction context
-    const content = composeContext({
-      state: currentState,
-      template: walletInfoTemplate,
-    });
-    console.log("🚀 ~ content:", content);
-
-    elizaLogger.debug(
-      "Generated get wallet info content:",
-      JSON.stringify(content, null, 2),
-    );
-
     const walletProvider = initWalletProvider(runtime);
+
     console.log("🚀 ~ walletProvider:", walletProvider);
 
     const action = new GetWalletInfoAction(walletProvider);
     console.log("🚀 ~ action:", action);
     try {
-      elizaLogger.debug("Calling get wallet info with content:", content);
-
-      const walletInfo = await action.getWalletInfo(content);
+      const walletInfo = await action.getWalletInfo(promptText);
       console.log("🚀 ~ walletInfo:", walletInfo);
 
       return true;

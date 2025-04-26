@@ -99,7 +99,7 @@ export const initWalletProvider = (runtime: IAgentRuntime) => {
       type: "evm" as NetworkType,
       config: {
         chainId: 1,
-        rpcUrl: runtime.getSetting("ETH_RPC_URL") || "",
+        rpcUrl: runtime.getSetting("ETHEREUM_RPC_URL") || "",
         name: "Ethereum",
         nativeCurrency: {
           name: "Ether",
@@ -111,7 +111,7 @@ export const initWalletProvider = (runtime: IAgentRuntime) => {
     [NetworkName.SOLANA]: {
       type: "solana" as NetworkType,
       config: {
-        rpcUrl: runtime.getSetting("SOL_RPC_URL") || "",
+        rpcUrl: runtime.getSetting("SOLANA_RPC_URL") || "",
         name: "Solana",
         nativeCurrency: {
           name: "Solana",
@@ -131,7 +131,7 @@ export const initWalletProvider = (runtime: IAgentRuntime) => {
       seedPhrase,
       index: 0,
     },
-    networks as any,
+    network,
   );
   return wallet;
 };

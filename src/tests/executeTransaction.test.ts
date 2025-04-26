@@ -67,11 +67,6 @@ describe("Execute Transaction Action", () => {
       },
       network,
     );
-    console.log(
-      "🚀 ~ beforeAll ~ wallet:",
-      await wallet.getAddress(NetworkName.BNB),
-    );
-
     executeTransactionAction = new ExecuteTransactionAction(wallet);
   });
   describe("Execute", () => {
