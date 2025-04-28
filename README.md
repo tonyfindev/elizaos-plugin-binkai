@@ -78,7 +78,7 @@ MIT
 ## Acknowledgements
 
 - [ElizaOS](https://github.com/elizaos)
-- [BINK AI](https://github.com/binkai)
+- [BINK AI](https://github.com/bink-ai)
 - [Birdeye](https://birdeye.so)
 - [Alchemy](https://www.alchemy.com)
 - [OpenAI](https://openai.com)
