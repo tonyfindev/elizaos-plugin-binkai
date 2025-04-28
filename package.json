@@ -69,7 +69,7 @@
     "agentConfig": {
         "pluginType": "elizaos:client:1.0.0",
         "pluginParameters": {
-            "BNB_SEED_PHRASE": {
+            "SEED_PHRASE": {
                 "type": "string",
                 "minLength": 1,
                 "description": "Your seed phrase for the BNB Chain ecosystem. Grants full access to associated funds.",
