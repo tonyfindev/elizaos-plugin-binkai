@@ -123,10 +123,10 @@ export const initWalletProvider = (runtime: IAgentRuntime) => {
   };
   const seedPhrase = runtime.getSetting("SEED_PHRASE");
 
+
   if (!seedPhrase) {
 
     throw new Error("SEED_PHRASE is missing");
-
   }
   const network = new Network({ networks });
   const wallet = new Wallet(

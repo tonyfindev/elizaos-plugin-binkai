@@ -383,6 +383,7 @@ export const executeTransactionAction = {
       {
         user: "{{agent}}",
         content: {
+
           text: "Swap 0.001 BNB for USDC on BSC",
           action: "EXECUTE_TRANSACTION",
         },
@@ -392,12 +393,14 @@ export const executeTransactionAction = {
       {
         user: "{{user1}}",
         content: {
+
           text: "Buy 0x1234 using 0.001 USDC on BSC. The slippage should be no more than 5%",
         },
       },
       {
         user: "{{agent}}",
         content: {
+
           text: "Swap 0.001 USDC for token 0x1234 on BSC",
           action: "EXECUTE_TRANSACTION",
         },

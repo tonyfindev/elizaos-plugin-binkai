@@ -23,11 +23,6 @@ export const binkEnvSchema = z.object({
   BINK_BASE_URL: z.string().min(1, "BINK_BASE_URL is required"),
   BINK_IMAGE_API_URL: z.string().min(1, "BINK_IMAGE_API_URL is required"),
   BINK_API_URL: z.string().min(1, "BINK_API_URL is required"),
-
-  // Database
-  // POSTGRES_AI_POSTGRES_URL: z
-  //   .string()
-  //   .min(1, "POSTGRES_AI_POSTGRES_URL is required"),
 });
 
 export type BinkConfig = z.infer<typeof binkEnvSchema>;
@@ -52,8 +47,6 @@ export function getConfig(): BinkConfig {
     BINK_BASE_URL: process.env.BINK_BASE_URL || "",
     BINK_IMAGE_API_URL: process.env.BINK_IMAGE_API_URL || "",
     BINK_API_URL: process.env.BINK_API_URL || "",
-
-
   };
 }
 
@@ -68,7 +61,6 @@ export async function validateBnbConfig(
       // Wallet Configuration
       SEED_PHRASE:
         runtime.getSetting("SEED_PHRASE") || process.env.SEED_PHRASE,
-
       // RPC URLs
       BSC_RPC_URL:
         runtime.getSetting("BSC_RPC_URL") ||

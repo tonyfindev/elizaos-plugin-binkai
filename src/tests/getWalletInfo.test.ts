@@ -15,9 +15,9 @@ describe("Get Wallet Info", () => {
 
   beforeAll(async () => {
     // Initialize with a test seed phrase
-    const seedPhrase = process.env.BNB_SEED_PHRASE || "";
+    const seedPhrase = process.env.SEED_PHRASE || "";
     if (!seedPhrase) {
-      throw new Error("BNB_SEED_PHRASE is not set");
+      throw new Error("SEED_PHRASE is not set");
     }
     const networks: NetworksConfig["networks"] = {
       bnb: {

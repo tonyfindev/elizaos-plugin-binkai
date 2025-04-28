@@ -31,3 +31,4 @@ export const binkPlugin: Plugin = {
 };
 
 export default binkPlugin;
+
