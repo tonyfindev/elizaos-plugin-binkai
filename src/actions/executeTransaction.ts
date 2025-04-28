@@ -8,7 +8,7 @@ import {
 } from "@elizaos/core";
 import { JsonRpcProvider } from "ethers";
 import OpenAI from "openai";
-import { initWalletProvider, walletInfoProvider } from "../providers/wallet";
+import { initWalletProvider } from "../providers/wallet";
 import { systemPromptTemplate } from "../templates";
 import { BirdeyeProvider } from "@binkai/birdeye-provider";
 import { AlchemyProvider } from "@binkai/alchemy-provider";
@@ -39,6 +39,7 @@ import { JupiterProvider } from "@binkai/jupiter-provider";
 import { getConfig, validateBnbConfig } from "../environment";
 import { v4 as uuidv4 } from "uuid";
 import { Connection } from "@solana/web3.js";
+
 export class ExecuteTransactionAction {
   private openai: OpenAI;
   private networks: NetworksConfig["networks"];
@@ -151,6 +152,7 @@ export class ExecuteTransactionAction {
       const jupiter = new JupiterProvider(new Connection(this.config.SOLANA_RPC_URL))
       const thena = new ThenaProvider(this.bscProvider, bscChainId);
       const debridge = new deBridgeProvider(
+
         [this.bscProvider, new Connection(this.config.SOLANA_RPC_URL)],56,7565164,);
       // Initialize the swap plugin with supported chains and providers
       await Promise.all([
@@ -211,6 +213,7 @@ export class ExecuteTransactionAction {
       await agent.registerPlugin(walletPlugin);
       await agent.registerPlugin(stakingPlugin);
       await agent.registerPlugin(bridgePlugin);
+
       return agent;
     } catch (error) {
       console.error("Error in initializeAgent:", error);
@@ -276,15 +279,10 @@ export const executeTransactionAction = {
     elizaLogger.debug(`Raw prompt text: "${promptText}"`);
 
     // PRIORITY ORDER FOR TOKEN DETERMINATION:
-    // 1. Direct match from prompt text (most reliable)
-    // 2. Tokens specified in model-generated content
-    // 3. Fallback based on token mentions
 
     const walletProvider = initWalletProvider(runtime);
-    console.log("🚀 ~ walletProvider:", walletProvider);
 
     const action = new ExecuteTransactionAction(walletProvider);
-    console.log("🚀 ~ action:", action);
     try {
       elizaLogger.debug(
         "Calling execute transaction with content:",
@@ -383,7 +381,6 @@ export const executeTransactionAction = {
       {
         user: "{{agent}}",
         content: {
-
           text: "Swap 0.001 BNB for USDC on BSC",
           action: "EXECUTE_TRANSACTION",
         },
@@ -393,14 +390,12 @@ export const executeTransactionAction = {
       {
         user: "{{user1}}",
         content: {
-
           text: "Buy 0x1234 using 0.001 USDC on BSC. The slippage should be no more than 5%",
         },
       },
       {
         user: "{{agent}}",
         content: {
-
           text: "Swap 0.001 USDC for token 0x1234 on BSC",
           action: "EXECUTE_TRANSACTION",
         },
