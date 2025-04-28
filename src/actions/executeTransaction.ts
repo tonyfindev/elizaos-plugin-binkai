@@ -183,11 +183,15 @@ export class ExecuteTransactionAction {
           model: "gpt-4.1",
           temperature: 0,
           systemPrompt: `${systemPromptTemplate}
-        Wallet BNB: ${(await wallet.getAddress(NetworkName.BNB)) || "Not available"}
+        Wallet BNB: ${
+          (await wallet.getAddress(NetworkName.BNB)) || "Not available"
+        }
         Wallet ETH: ${
-                    (await wallet.getAddress(NetworkName.ETHEREUM)) || "Not available"
-                  }
-        Wallet SOL: ${(await wallet.getAddress(NetworkName.SOLANA)) || "Not available"}
+          (await wallet.getAddress(NetworkName.ETHEREUM)) || "Not available"
+        }
+        Wallet SOL: ${
+          (await wallet.getAddress(NetworkName.SOLANA)) || "Not available"
+        }
             `,
         },
         wallet,
@@ -240,8 +244,9 @@ export class ExecuteTransactionAction {
 }
 
 export const executeTransactionAction = {
-  name: "executeTransaction",
-  description: "Execute a transaction on the same chain",
+  name: "EXECUTE_TRANSACTION",
+  description:
+    "Execute blockchain transactions across multiple networks (BNB Chain, Ethereum, Solana) with support for various operations including token swaps, staking, and bridging. The tool integrates with multiple DEXs and protocols to provide the best execution routes and prices.",
   handler: async (
     runtime: IAgentRuntime,
     message: Memory,
@@ -262,34 +267,6 @@ export const executeTransactionAction = {
         : "";
     elizaLogger.debug(`Raw prompt text: "${promptText}"`);
 
-    // Initialize or update state
-    let currentState = state;
-    if (!currentState) {
-      currentState = (await runtime.composeState(message)) as State;
-    } else {
-      currentState = await runtime.updateRecentMessageState(currentState);
-    }
-
-    state.walletInfo = await walletInfoProvider.get(
-      runtime,
-      message,
-      currentState,
-    );
-
-    console.log("🚀 ~ currentState:", currentState);
-
-    // Compose execute transaction context
-    const content = composeContext({
-      state: currentState,
-      template: systemPromptTemplate,
-    });
-    console.log("🚀 ~ content:", content);
-
-    elizaLogger.debug(
-      "Generated execute transaction content:",
-      JSON.stringify(content, null, 2),
-    );
-
     // PRIORITY ORDER FOR TOKEN DETERMINATION:
     // 1. Direct match from prompt text (most reliable)
     // 2. Tokens specified in model-generated content
@@ -301,15 +278,17 @@ export const executeTransactionAction = {
     const action = new ExecuteTransactionAction(walletProvider);
     console.log("🚀 ~ action:", action);
     try {
-      elizaLogger.debug("Calling execute transaction with content:", content);
+      elizaLogger.debug(
+        "Calling execute transaction with content:",
+        promptText,
+      );
 
-      const swapResp = await action.execute(content);
-      console.log("🚀 ~ swapResp:", swapResp);
+      const result = await action.execute(promptText);
+      console.log("🚀 ~ result:", result);
 
-      //   callback?.({
-      //     text: `Successfully executed transaction\nTransaction Hash: ${swapResp.txHash}`,
-      //     content: { ...swapResp },
-      //   });
+      callback?.({
+        text: `${result}`,
+      });
 
       return true;
     } catch (error) {
@@ -359,8 +338,7 @@ export const executeTransactionAction = {
   template: systemPromptTemplate,
   validate: async (runtime: IAgentRuntime) => {
     const config = getConfig();
-    const seedPhrase =
-      runtime.getSetting("BNB_SEED_PHRASE") || config.BNB_SEED_PHRASE;
+    const seedPhrase = runtime.getSetting("SEED_PHRASE") || config.SEED_PHRASE;
 
     if (!seedPhrase || typeof seedPhrase !== "string") {
       elizaLogger.error("Missing or invalid seed phrase");
@@ -386,4 +364,36 @@ export const executeTransactionAction = {
       return false;
     }
   },
+  examples: [
+    [
+      {
+        user: "{{user1}}",
+        content: {
+          text: "Swap 0.001 BNB for USDC on BSC",
+        },
+      },
+      {
+        user: "{{agent}}",
+        content: {
+          text: "Swap 0.001 BNB for USDC on BSC",
+          action: "EXECUTE_TRANSACTION",
+        },
+      },
+    ],
+    [
+      {
+        user: "{{user1}}",
+        content: {
+          text: "Buy 0x1234 using 0.001 USDC on BSC. The slippage should be no more than 5%",
+        },
+      },
+      {
+        user: "{{agent}}",
+        content: {
+          text: "Swap 0.001 USDC for token 0x1234 on BSC",
+          action: "EXECUTE_TRANSACTION",
+        },
+      },
+    ],
+  ],
 };
