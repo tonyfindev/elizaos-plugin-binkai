@@ -314,5 +314,20 @@ export const getWalletInfoAction = {
         },
       },
     ],
+    [
+      {
+        user: "{{user1}}",
+        content: {
+          text: "Get token info 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+        },
+      },
+      {
+        user: "{{agent}}",
+        content: {
+          text: "Get token info 6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          action: "GET_WALLET_INFO",
+        },
+      },
+    ],
   ],
 };
