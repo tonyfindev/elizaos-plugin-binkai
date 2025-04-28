@@ -11,7 +11,6 @@ const DEFAULT_SOLANA_RPC_URL = "https://api.mainnet-beta.solana.com";
 export const binkEnvSchema = z.object({
   // Wallet Configuration
   SEED_PHRASE: z.string().min(1, "SEED_PHRASE is required"),
-
   // RPC URLs
   BSC_RPC_URL: z.string().default(DEFAULT_BSC_RPC_URL),
   ETHEREUM_RPC_URL: z.string().default(DEFAULT_ETHEREUM_RPC_URL),
@@ -60,8 +59,8 @@ export async function validateBnbConfig(
   try {
     const config = {
       // Wallet Configuration
-      SEED_PHRASE: runtime.getSetting("SEED_PHRASE") || process.env.SEED_PHRASE,
-
+      SEED_PHRASE:
+        runtime.getSetting("SEED_PHRASE") || process.env.SEED_PHRASE,
       // RPC URLs
       BSC_RPC_URL:
         runtime.getSetting("BSC_RPC_URL") ||
